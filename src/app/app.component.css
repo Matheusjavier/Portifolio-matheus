@@ -44,13 +44,13 @@ main {
     display: flex;
     width: 100%;
     height: 100vh;
-    background-image: url(../assets/b2b-stack-blog-conheca-as-5-linguagens-de-programacao-mais-usadas-nos-jogos--1024x402.jpg);
+    background-image: url(../assets/PORTIFOLIO.jpg);
     background-size: 2048px 1024px;
     background-color: #000;
 }
 
 #home {
-    color: #fff;
+    color: #e4e1e7;
     padding-top: 20%;
     padding-left: 2%;
     text-align: center;
@@ -69,8 +69,8 @@ main {
 }
 
 .social a:hover {
-    color: rgb(0, 228, 228);
-    text-shadow: 0 0 50px;
+    color: rgb(11, 138, 39);
+    text-shadow: 0 0 70px;
     transition: all 550ms ease-in-out 0s;
 }
 
