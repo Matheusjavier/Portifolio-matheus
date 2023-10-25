@@ -1,0 +1,82 @@
+header {
+    margin: 0 auto;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: rgb(37, 39, 37);
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    transition: 0.3s;
+    z-index: 5;
+}
+
+nav {
+    display: block;
+}
+
+.bar-nav {
+    list-style: none;
+    position: relative;
+    display: inline-flex;
+}
+
+.bar-nav a.link {
+    margin: 2px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.bar-nav a:hover {
+    background-color: #0c110e;
+}
+
+i {
+    padding: 5px
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/b2b-stack-blog-conheca-as-5-linguagens-de-programacao-mais-usadas-nos-jogos--1024x402.jpg);
+    background-size: 2048px 1024px;
+    background-color: #000;
+}
+
+#home {
+    color: #fff;
+    padding-top: 20%;
+    padding-left: 2%;
+    text-align: center;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.social a {
+    text-decoration: none;
+    color: var(--main-fonts-color);
+    font-size: 22px;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+
+}
+
+.social a:hover {
+    color: rgb(0, 228, 228);
+    text-shadow: 0 0 50px;
+    transition: all 550ms ease-in-out 0s;
+}
+
+#contato {
+    position: absolute;
+    display: block;
+    top: 100%;
+    left: 15%;
+}
