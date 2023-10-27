@@ -58,7 +58,8 @@ main {
     padding-left: 2%;
     text-align: left;
     font-size: 24px;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom:3%;
 }
 #home h1{
     bottom: 50px;
